@@ -62,18 +62,18 @@ end
 function create_self( )
   self = {
     names = {
-    "solid",
-    "سلید",
-    "سولید",
-    "سعید",
-    "saeed",
-    "saeid"
+    "masih",
+    "مسیح",
+    "مصیح",
+    "ممد",
+    "mawsih",
+    "Masih"
     },
     answers = {
-    "وات؟ :/",
-    "بلی؟",
+    "جانم؟ :/",
+    "بله؟",
     "بفرما",
-    "بوگوی :|",
+    "بله :|",
     "جونم؟",
     "جونز",
     "ژون؟ :/"
@@ -119,29 +119,16 @@ function create_config( )
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
-    info_text = [[》Beyond Self Bot V2.5
+    info_text = [[》Masih Malakooti Self Bot V2.5
 An fun bot based on BDReborn
 
-》https://github.com/BeyondTeam/Self-BotV2 
+》Masih Malakooti ( @Unruly ) 
 
 》Admins :
-》@SoLiD ➣ Founder & Developer《
-》@Makan ➣ Developer《
-》@To0fan ➣ Developer《
-》@CiveY ➣ Developeer《
-》@MrPars ➣ Manager《
+》@Unruly ➣ Founder & Developer《
 
-》Special thanks to :
-》@Vysheng
-》@MrHalix
-》@Tele_Sudo
-》And Beyond Team Members
-
-》Our channel :
-》@BeyondTeam《
-
-》Our website :
-》http://BeyondTeam.ir
+》My channel :
+》@Hesar《
 ]],
   }
 	serialize_to_file(config, './data/config.lua')
